@@ -1,0 +1,110 @@
+[ 2016-10-25T20:46:15+08:00 ] ::1 /izobs/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.043832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.044180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.044484s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000717s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001060s ]
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\izobs\App\Runtime\Cache\Home\ee777923371ecb84bb8ebadeae5bdb9d.php 第 9 行.
+NOTIC: [8] Undefined variable: sex D:\phpStudy\WWW\izobs\App\Runtime\Cache\Home\ee777923371ecb84bb8ebadeae5bdb9d.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.455589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.455868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.026876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.031211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.031553s ]
+
+[ 2016-10-25T20:46:57+08:00 ] ::1 /izobs/index.php/Home/Index/user/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003452s ]
+ERR: 1146:Table 'izobs.mk_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mk_user`
+ERR: 1146:Table 'izobs.mk_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mk_user`
+
+[ 2016-10-25T20:49:06+08:00 ] ::1 /izobs/index.php/Home/Index/user/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.035487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.088180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.088524s ]
+ERR: 1146:Table 'izobs.mk_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mk_user`
+ERR: 1146:Table 'izobs.mk_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mk_user`
+
+[ 2016-10-25T20:50:36+08:00 ] ::1 /izobs/index.php/Home/Index/user/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002573s ]
+ERR: 1146:Table 'izobs.mk_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mk_user`
+ERR: 1146:Table 'izobs.mk_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mk_user`
+
+[ 2016-10-25T20:51:12+08:00 ] ::1 /izobs/index.php/Home/Index/user/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002452s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0578s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026836s ]
+
+[ 2016-10-25T20:51:35+08:00 ] ::1 /izobs/index.php/Home/Index/user/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002034s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0606s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002391s ]
+
+[ 2016-10-25T20:59:57+08:00 ] ::1 /izobs/index.php/Home/Index/user/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002942s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002515s ]
+
+[ 2016-10-25T21:30:36+08:00 ] ::1 /izobs/index.php/Home/Index/user/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.108460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.132876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.133601s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1051s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0568s ]
+SQL: INSERT INTO `user` (`name`,`age`,`sex`) VALUES ('xiaohua','16','girl') [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.056363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.056919s ]
+

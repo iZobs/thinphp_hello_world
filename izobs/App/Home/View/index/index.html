@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>add something</title>
+</head>
+<body>
+<?php
+    echo $name;
+    echo $sex;
+?>
+    {$me['name']}
+    {$me.name}
+    {$me.age}
+    {$me.sex|default='man'}
+
+    {$me['name']|md5|substr=0,5}
+
+    add hello world to page!!!
+</body>
+</html>
